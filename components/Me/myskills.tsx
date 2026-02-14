@@ -34,7 +34,7 @@ export default function Myskills() {
     },
     {
       name: "Tools",
-      items: ["Git", "Docker", "PostgreSQL", "Vercel / Railway"],
+      items: ["Git", "Docker", "PostgreSQL", "Vercel / render"],
       levels: ["Proficient", "Beginner", "Intermediate", "Proficient"],
       colors: ["text-orange-500", "text-blue-400", "text-sky-400", "text-black"]
     }
