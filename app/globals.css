@@ -1,26 +1,57 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Felipa&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+main{
+    padding-block: 4rem;
+}
+body{
+    box-sizing: border-box;
+    background: linear-gradient(
+  to right,
+  rgba(245, 230, 211, 0.95),
+  rgba(232, 213, 196, 0.95)
+);
+
+    width: 100%;
+    color:#2C1810;
+}
+html{
+    width: 100%;
+    box-sizing: border-box;
+}
+h1{
+    font-family: Ribeye, Lato ,Arial,sans-serif;
+}
+section{
+    padding-inline: 1rem;
+    
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    padding-top: 0;
+    font-family:  Ribeye,Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight:100 ;
+}
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #2a1a12; /* dark brown */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Scrollbar thumb (the moving part) */
+::-webkit-scrollbar-thumb {
+  background-color: #c08457; /* warm brown/amber */
+  border-radius: 10px;
+  border: 2px solid #2a1a12;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a16207; /* darker amber */
 }
