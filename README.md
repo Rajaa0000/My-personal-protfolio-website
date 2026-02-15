@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built to showcase my projects, s
 The website is fully dynamic, CMS-driven, and focused on clean architecture, performance, and scalability.
 
 ## 🌐 Live Demo
-https://my-personal-protfolio-website-hgymvz9p6.vercel.app
+https://my-personal-protfolio-website.vercel.app/
 
 ---
 
