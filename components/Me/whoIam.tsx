@@ -9,7 +9,7 @@ import Link from "next/link";
 import { motion, Variants } from "framer-motion"; // 1. Imported Variants
 
 function WhoIam() {
-  const links = ["https://github.com/Rajaa0000", "https://www.linkedin.com/in/chahinez-habouchi-b715a0390", "https://smallpdf.com/file#s=cb94e0b6-a71f-4022-89f4-6838a676c8c7"]
+  const links = ["https://github.com/Rajaa0000", "https://www.linkedin.com/in/chahinez-habouchi-b715a0390", "https://heyzine.com/flip-book/bb345e0789.html"]
   const colors = [
     "bg-gradient-to-r from-[#C17B5C] to-[#D4A574] text-white",
     "bg-gradient-to-r from-[#8B7355] to-[#A0826D] text-white shadow-lg hover:shadow-2xl",

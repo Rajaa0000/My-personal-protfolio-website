@@ -75,8 +75,10 @@ function Footer() {
                         className="mx-2 inline-block"
                     >
                         <FontAwesomeIcon icon={faHeart} className="text-[1rem]"/>
+                        
                     </motion.span>
-                    , © 2026 All rights reserved
+                    By Chahinez Habouchi
+                   
                 </motion.p>
                 
                 <motion.p 

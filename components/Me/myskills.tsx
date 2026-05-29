@@ -7,30 +7,31 @@ export default function Myskills() {
   const [active, setActive] = useState([1, 0, 0, 0]);
   
   const skillIcons = [
-    ["devicon-javascript-plain", "devicon-typescript-plain", "devicon-python-plain", "devicon-cplusplus-plain"],
+   
     ["devicon-react-original", "devicon-nextjs-plain colored", "devicon-tailwindcss-original"],
     ["devicon-django-plain-wordmark", "devicon-djangorest-plain"],
+     ["devicon-javascript-plain", "devicon-typescript-plain", "devicon-python-plain", "devicon-cplusplus-plain"],
     ["devicon-git-plain", "devicon-docker-plain", "devicon-postgresql-plain", "devicon-vercel-original"]
   ];
 
   const skills = [
     {
-      name: "Languages",
-      items: ["JavaScript", "TypeScript", "Python", "C++"],
-      levels: ["Expert", "Proficient", "Expert", "Strong"],
-      colors: ["text-yellow-500", "text-red-900", "text-blue-900", "text-black"]
-    },
-    {
       name: "Frontend",
       items: ["React", "Next.js", "TailwindCSS"],
-      levels: ["Expert", "Proficient", "Expert"],
+      levels: ["Strong", "Proficient", "Proficient"],
       colors: ["text-cyan-500", "text-gray-900", "text-teal-500"]
     },
     {
       name: "Backend",
       items: ["Django", "Django REST Framework"],
-      levels: ["Expert", "Proficient"],
+      levels: ["Proficient", "Proficient"],
       colors: ["text-green-500", "text-emerald-400"]
+    },
+        {
+      name: "Languages",
+      items: ["JavaScript", "TypeScript", "Python", "C++"],
+      levels: ["Proficient", "Proficient", "Strong", "Strong"],
+      colors: ["text-yellow-500", "text-red-900", "text-blue-900", "text-black"]
     },
     {
       name: "Tools",

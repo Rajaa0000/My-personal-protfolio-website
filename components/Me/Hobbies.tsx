@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Hobbies() {
   const desc = [
     "Math is my favorite subject. I like knowing and solving math problems and really using my brain cells. I also enjoy puzzles and anything that challenges the way I think.",
-    "I like solving algorithmic and coding problems constantly. I’m passionate about LeetCode. solving one meduim problem raises my dopamine level to its highest value .",
+    "I like solving algorithmic and coding problems constantly. I’m passionate about LeetCode. solving its problems raises my dopamine level to its highest value .",
     "Even though I’m not very good at learning spoken languages, I really enjoy learning programming languages. I find it interesting to explore how different languages work. Next, I would like to learn Java and Go.",
     "I like public speaking. I enjoy presenting ideas to people, convincing them about what I believe in, animating events, and making people engaged and happy."
   ]
