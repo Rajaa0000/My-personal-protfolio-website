@@ -7,7 +7,7 @@ function Education() {
 
   const times = ["2024,Present", "2024"];
   const content = [
-    "Engineering Degree in Artificial Intelligence (2nd Year)",
+    "Engineering Degree in Artificial Intelligence (3rd Year)",
     "Scientific Baccalaureate"
   ];
   const titles = [
